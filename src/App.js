@@ -1,8 +1,8 @@
-import React from "react";
-import AuthorInput from "./features/books/AuthorInput";
-import Authors from "./features/books/Authors";
-import BookInput from "./features/books/BookInput";
-import Books from "./features/books/Books";
+import React from 'react'
+import AuthorInput from './features/authors/AuthorInput'
+import Authors from './features/authors/Authors'
+import BookInput from './features/books/BookInput'
+import Books from './features/books/Books'
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
         <Books />
       </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
